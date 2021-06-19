@@ -7,6 +7,7 @@ public class AutoDesksample {
 		String url = System.getProperty("URL");
 		System.out.println(browser);
 		System.out.println(url);
-
+		String os = System.getProperty("os.name");
+            System.out.println(os);
 	}
 }
